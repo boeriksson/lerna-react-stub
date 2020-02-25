@@ -1,0 +1,1 @@
+configure({ adapter: new Adapter() });
