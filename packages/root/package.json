@@ -3,13 +3,9 @@
   "version": "0.0.0",
   "description": "Root node to run components locally",
   "author": "boeriksson <bo.branzell@gmail.com>",
-  "homepage": "https://github.com/boeriksson/lerna-react-stub#readme",
+  "homepage": "",
   "license": "ISC",
   "main": "lib/root.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
   "files": [
     "lib"
   ],
@@ -18,10 +14,8 @@
     "url": "git+https://github.com/boeriksson/lerna-react-stub.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/boeriksson/lerna-react-stub/issues"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "webpack-dev-server --config ./build/webpack.config.js --watch --colors"
   },
   "dependencies": {
     "react": "^16.12.0",

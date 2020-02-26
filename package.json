@@ -9,10 +9,10 @@
   "workspaces": [
     "packages/*"
   ],
-  "jest": {
-    "setupFiles": [
-      "./config/setupTests.js"
-    ]
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -32,6 +32,8 @@
     "lerna": "^3.20.2",
     "path": "^0.12.7",
     "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
-  }
+  },
+  "dependencies": {}
 }

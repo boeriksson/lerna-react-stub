@@ -5,7 +5,7 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'react-redux-stub.js'
+        filename: 'lerna-react-stub.js'
     },
     module: {
         rules: [
